@@ -41,7 +41,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
-(lib.Tween2 = function(mode,startPosition,loop,reversed) {
+(lib.Symbol6 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -52,21 +52,46 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
+	// Layer_4
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(1,1,1).p("ABGhwIBNAAIAABMIhNAAgABGAdIBNAAIAABNIhNAAgAgtCyIiHAAIAAljIFpAAIAAFjIiFAAIhdAAIAAipIBdAAIAACpAiRhwIBMAAIAABMIhMAAgAiRAdIBMAAIAABNIhMAAg");
-	this.shape.setTransform(0,12.75);
+	this.shape.graphics.f().s("#000000").ss(1,0,0,4).p("Ah5gKIDzAAIAAAVIjzAAg");
+	this.shape.setTransform(15.4,-1.125);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AAwCyIAAipIhdAAIAACpIiHAAIAAljIFpAAIAAFjgABGBqIBNAAIAAhNIhNAAIBNAAIAABNIhNAAIAAhNIAABNgAiRBqIBNAAIAAhNIhNAAIBNAAIAABNIhNAAIAAhNIAABNgABGgkIBNAAIAAhMIhNAAIBNAAIAABMIhNAAIAAhMIAABMgAiRgkIBNAAIAAhMIhNAAIBNAAIAABMIhNAAIAAhMIAABMgAAwCyIhdAAIAAipIBdAAIAACpg");
-	this.shape_1.setTransform(0,12.75);
+	this.shape_1.graphics.f("#000000").s().p("AArFSIAAgtIhWAAIAAAtIhrAAIAAhQIEtAAIAABQgAh1k7IAAgWIDyAAIAAAWg");
+	this.shape_1.setTransform(15.075,31.55);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	// Layer_3
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f().s("#000000").ss(1,0,0,4).p("AB5EgIAAo/AA7EgIAAo/AAdEgIAAo/Ah4EgIAAo/AhaEgIAAo/Ag8EgIAAo/AgeEgIAAo/AAAEgIAAo/ABZEgIAAo/");
+	this.shape_2.setTransform(15.375,28.775);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_2).wait(1));
+
+	// Layer_2
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f().s("#000000").ss(1,0,0,4).p("AiWAAIEtAAAiWg1IEtAAAiWA0IEtAAAiWBpIEtAAAiWkJIEtAAAiWjUIEtAAAiWhqIEtAAAiWifIEtAAAiWCeIEtAAAiWDTIEtAAAiWEKIEtAA");
+	this.shape_3.setTransform(15.075,30.725);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_3).wait(1));
+
+	// Layer_1
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f().s("#000000").ss(1,0,0,4).p("AiWlGIEtAAIAAKNIktAAg");
+	this.shape_4.setTransform(15.075,32.675);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.lf(["#ABABD9","#D7D7EC","#A3A3CE"],[0,0.525,1],-25.8,-28.7,14.8,9.5).s().p("AiWFHIAAqNIEtAAIAAKNg");
+	this.shape_5.setTransform(15.075,32.675);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_5},{t:this.shape_4}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-19.1,-6,38.2,37.6);
+p.nominalBounds = new cjs.Rectangle(-1,-3.2,32.2,69.60000000000001);
 
 
 (lib.Symbol4 = function(mode,startPosition,loop,reversed) {
@@ -82,7 +107,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#006600").s().p("AhOBPQghghAAguQAAgtAhghQAhghAtAAQAuAAAhAhQAhAhAAAtQAAAughAhQghAhguAAQgtAAghghg");
+	this.shape.graphics.f("#000000").s().p("AhOBPQghghAAguQAAgtAhghQAhghAtAAQAuAAAhAhQAhAhAAAtQAAAughAhQghAhguAAQgtAAghghg");
 	this.shape.setTransform(11.175,11.175);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -155,15 +180,15 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Tween2("synched",0);
-	this.instance.setTransform(18.1,61.15,1,1,0,0,0,0,30.6);
+	this.instance = new lib.Symbol6("synched",0);
+	this.instance.setTransform(23.8,72.1,1,0.9997,0,0,0,13.8,64);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleY:1.0685,skewX:20.6281},59).to({scaleY:1,skewX:0},61).to({scaleY:1.0623,skewX:-19.7191},71).to({scaleY:1,skewX:0},78).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:15.1,regY:31.5,skewX:0.069,x:25.1,y:39.6},0).wait(1).to({skewX:0.1379,x:25.15},0).wait(1).to({skewX:0.2069,x:25.2},0).wait(1).to({skewX:0.2759,x:25.25},0).wait(1).to({skewX:0.3448},0).wait(1).to({skewX:0.4138,x:25.3},0).wait(1).to({skewX:0.4828,x:25.35},0).wait(1).to({skewX:0.5517,x:25.4},0).wait(1).to({skewX:0.6207},0).wait(1).to({skewX:0.6897,x:25.45},0).wait(1).to({skewX:0.7586,x:25.5},0).wait(1).to({skewX:0.8276,x:25.55},0).wait(1).to({skewX:0.8966,x:25.6},0).wait(1).to({skewX:0.9655},0).wait(1).to({skewX:1.0345,x:25.7},0).wait(1).to({skewX:1.1034},0).wait(1).to({skewX:1.1724,x:25.75},0).wait(1).to({skewX:1.2414},0).wait(1).to({skewX:1.3103,x:25.85},0).wait(1).to({skewX:1.3793},0).wait(1).to({skewX:1.4483,x:25.9},0).wait(1).to({skewX:1.5172},0).wait(1).to({skewX:1.5862,x:26},0).wait(1).to({skewX:1.6552},0).wait(1).to({skewX:1.7241,x:26.05},0).wait(1).to({skewX:1.7931,x:26.1,y:39.55},0).wait(1).to({skewX:1.8621,x:26.15},0).wait(1).to({skewX:1.931,x:26.2},0).wait(1).to({skewX:2},0).wait(1).to({skewX:1.9333},0).wait(1).to({skewX:1.8667,x:26.1},0).wait(1).to({skewX:1.8},0).wait(1).to({skewX:1.7333,x:26.05,y:39.6},0).wait(1).to({skewX:1.6667},0).wait(1).to({skewX:1.6,x:25.95},0).wait(1).to({skewX:1.5333},0).wait(1).to({skewX:1.4667,x:25.9},0).wait(1).to({skewX:1.4},0).wait(1).to({skewX:1.3333,x:25.8},0).wait(1).to({skewX:1.2667},0).wait(1).to({skewX:1.2,x:25.75},0).wait(1).to({skewX:1.1333},0).wait(1).to({skewX:1.0667,x:25.65},0).wait(1).to({skewX:1},0).wait(1).to({skewX:0.9333,x:25.6},0).wait(1).to({skewX:0.8667,x:25.55},0).wait(1).to({skewX:0.8,x:25.5},0).wait(1).to({skewX:0.7333},0).wait(1).to({skewX:0.6667,x:25.45},0).wait(1).to({skewX:0.6,x:25.4},0).wait(1).to({skewX:0.5333,x:25.35},0).wait(1).to({skewX:0.4667},0).wait(1).to({skewX:0.4,x:25.3},0).wait(1).to({skewX:0.3333,x:25.25},0).wait(1).to({skewX:0.2667,x:25.2},0).wait(1).to({skewX:0.2},0).wait(1).to({skewX:0.1333,x:25.15},0).wait(1).to({skewX:0.0667,x:25.1},0).wait(1).to({skewX:0,x:25.05,y:39.55},0).wait(1).to({skewX:-0.0667,y:39.6},0).wait(1).to({skewX:-0.1333,x:25},0).wait(1).to({skewX:-0.2,x:24.95},0).wait(1).to({skewX:-0.2667},0).wait(1).to({skewX:-0.3333,x:24.9},0).wait(1).to({skewX:-0.4,x:24.85},0).wait(1).to({skewX:-0.4667,x:24.8},0).wait(1).to({skewX:-0.5333},0).wait(1).to({skewX:-0.6,x:24.75},0).wait(1).to({skewX:-0.6667,x:24.7},0).wait(1).to({skewX:-0.7333,x:24.65},0).wait(1).to({skewX:-0.8},0).wait(1).to({skewX:-0.8667,x:24.6},0).wait(1).to({skewX:-0.9333,x:24.55},0).wait(1).to({skewX:-1,x:24.5},0).wait(1).to({skewX:-1.0667},0).wait(1).to({skewX:-1.1333,x:24.4},0).wait(1).to({skewX:-1.2},0).wait(1).to({skewX:-1.2667,x:24.35},0).wait(1).to({skewX:-1.3333},0).wait(1).to({skewX:-1.4,x:24.25},0).wait(1).to({skewX:-1.4667},0).wait(1).to({skewX:-1.5333,x:24.2},0).wait(1).to({skewX:-1.6},0).wait(1).to({skewX:-1.6667,x:24.1},0).wait(1).to({skewX:-1.7333},0).wait(1).to({skewX:-1.8,x:24.05,y:39.55},0).wait(1).to({skewX:-1.8667},0).wait(1).to({skewX:-1.9333,x:23.95},0).wait(1).to({skewX:-2},0).wait(1).to({skewX:-1.9333},0).wait(1).to({skewX:-1.8667,x:24.05},0).wait(1).to({skewX:-1.8},0).wait(1).to({skewX:-1.7333,x:24.1,y:39.6},0).wait(1).to({skewX:-1.6667},0).wait(1).to({skewX:-1.6,x:24.2},0).wait(1).to({skewX:-1.5333},0).wait(1).to({skewX:-1.4667,x:24.25},0).wait(1).to({skewX:-1.4},0).wait(1).to({skewX:-1.3333,x:24.35},0).wait(1).to({skewX:-1.2667},0).wait(1).to({skewX:-1.2,x:24.4},0).wait(1).to({skewX:-1.1333},0).wait(1).to({skewX:-1.0667,x:24.5},0).wait(1).to({skewX:-1},0).wait(1).to({skewX:-0.9333,x:24.55},0).wait(1).to({skewX:-0.8667,x:24.6},0).wait(1).to({skewX:-0.8,x:24.65},0).wait(1).to({skewX:-0.7333},0).wait(1).to({skewX:-0.6667,x:24.7},0).wait(1).to({skewX:-0.6,x:24.75},0).wait(1).to({skewX:-0.5333,x:24.8},0).wait(1).to({skewX:-0.4667},0).wait(1).to({skewX:-0.4,x:24.85},0).wait(1).to({skewX:-0.3333,x:24.9},0).wait(1).to({skewX:-0.2667,x:24.95},0).wait(1).to({skewX:-0.2},0).wait(1).to({skewX:-0.1333,x:25},0).wait(1).to({skewX:-0.0667,x:25.05},0).wait(1).to({skewX:0,y:39.55},0).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-13.7,23.9,64.3,38.300000000000004);
+p.nominalBounds = new cjs.Rectangle(6.8,4.8,36.6,69.7);
 
 
 (lib.medium = function(mode,startPosition,loop,reversed) {
@@ -177,16 +202,16 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib.Tween2("synched",0);
-	this.instance.setTransform(18.1,61.15,1,1,0,0,0,0,30.6);
+	// Layer_3
+	this.instance = new lib.Symbol6("synched",0);
+	this.instance.setTransform(23.8,72,1,0.9997,0,0,0,14.7,64.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleY:1.0685,skewX:20.6281},29).to({scaleY:1,skewX:0},30).to({scaleY:1.0623,skewX:-19.7191},30).to({scaleY:1,skewX:0},30).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:15.1,regY:31.5,skewX:0.2368,x:24.3,y:38.7},0).wait(1).to({skewX:0.4737,x:24.45},0).wait(1).to({skewX:0.7105,x:24.6},0).wait(1).to({skewX:0.9474,x:24.75},0).wait(1).to({skewX:1.1842,x:24.85},0).wait(1).to({skewX:1.4211,x:25},0).wait(1).to({skewX:1.6579,x:25.15},0).wait(1).to({skewX:1.8947,x:25.25,y:38.65},0).wait(1).to({skewX:2.1316,x:25.45},0).wait(1).to({skewX:2.3684,x:25.55,y:38.7},0).wait(1).to({skewX:2.6053,x:25.65},0).wait(1).to({skewX:2.8421,x:25.85},0).wait(1).to({skewX:3.0789,x:25.95},0).wait(1).to({skewX:3.3158,x:26.1,y:38.75},0).wait(1).to({skewX:3.5526,x:26.25},0).wait(1).to({skewX:3.7895,x:26.35,y:38.7},0).wait(1).to({skewX:4.0263,x:26.55,y:38.75},0).wait(1).to({skewX:4.2632,x:26.65},0).wait(1).to({skewX:4.5,x:26.8},0).wait(1).to({skewX:4.275,x:26.65},0).wait(1).to({skewX:4.05,x:26.55},0).wait(1).to({skewX:3.825,x:26.4,y:38.7},0).wait(1).to({skewX:3.6,x:26.25,y:38.75},0).wait(1).to({skewX:3.375,x:26.15},0).wait(1).to({skewX:3.15,x:26,y:38.7},0).wait(1).to({skewX:2.925,x:25.9},0).wait(1).to({skewX:2.7,x:25.75},0).wait(1).to({skewX:2.475,x:25.6},0).wait(1).to({skewX:2.25,x:25.45,y:38.65},0).wait(1).to({skewX:2.025,x:25.35},0).wait(1).to({skewX:1.8,x:25.2},0).wait(1).to({skewX:1.575,x:25.1,y:38.7},0).wait(1).to({skewX:1.35,x:24.95},0).wait(1).to({skewX:1.125,x:24.85},0).wait(1).to({skewX:0.9,x:24.7},0).wait(1).to({skewX:0.675,x:24.6},0).wait(1).to({skewX:0.45,x:24.45},0).wait(1).to({skewX:0.225,x:24.35},0).wait(1).to({skewX:0,x:24.15,y:38.65},0).wait(1).to({skewX:-0.225,x:24,y:38.7},0).wait(1).to({skewX:-0.45,x:23.9},0).wait(1).to({skewX:-0.675,x:23.75},0).wait(1).to({skewX:-0.9,x:23.65},0).wait(1).to({skewX:-1.125,x:23.5},0).wait(1).to({skewX:-1.35,x:23.4},0).wait(1).to({skewX:-1.575,x:23.25},0).wait(1).to({skewX:-1.8,x:23.15,y:38.65},0).wait(1).to({skewX:-2.025,x:23},0).wait(1).to({skewX:-2.25,x:22.9},0).wait(1).to({skewX:-2.475,x:22.75,y:38.7},0).wait(1).to({skewX:-2.7,x:22.6},0).wait(1).to({skewX:-2.925,x:22.45},0).wait(1).to({skewX:-3.15,x:22.35},0).wait(1).to({skewX:-3.375,x:22.2,y:38.75},0).wait(1).to({skewX:-3.6,x:22.1},0).wait(1).to({skewX:-3.825,x:21.95,y:38.7},0).wait(1).to({skewX:-4.05,x:21.8,y:38.75},0).wait(1).to({skewX:-4.275,x:21.7},0).wait(1).to({skewX:-4.5,x:21.55},0).wait(1).to({skewX:-4.275,x:21.7},0).wait(1).to({skewX:-4.05,x:21.8},0).wait(1).to({skewX:-3.825,x:21.95,y:38.7},0).wait(1).to({skewX:-3.6,x:22.1,y:38.75},0).wait(1).to({skewX:-3.375,x:22.2},0).wait(1).to({skewX:-3.15,x:22.35,y:38.7},0).wait(1).to({skewX:-2.925,x:22.45},0).wait(1).to({skewX:-2.7,x:22.6},0).wait(1).to({skewX:-2.475,x:22.75},0).wait(1).to({skewX:-2.25,x:22.9,y:38.65},0).wait(1).to({skewX:-2.025,x:23},0).wait(1).to({skewX:-1.8,x:23.15},0).wait(1).to({skewX:-1.575,x:23.25,y:38.7},0).wait(1).to({skewX:-1.35,x:23.4},0).wait(1).to({skewX:-1.125,x:23.5},0).wait(1).to({skewX:-0.9,x:23.65},0).wait(1).to({skewX:-0.675,x:23.75},0).wait(1).to({skewX:-0.45,x:23.9},0).wait(1).to({skewX:-0.225,x:24},0).wait(1).to({skewX:0,x:24.15,y:38.65},0).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-13.7,23.9,64.3,38.300000000000004);
+p.nominalBounds = new cjs.Rectangle(3.1,3.9,42.199999999999996,69.69999999999999);
 
 
 (lib.fast = function(mode,startPosition,loop,reversed) {
@@ -201,15 +226,15 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Tween2("synched",0);
-	this.instance.setTransform(18.1,61.15,1,1,0,0,0,0,30.6);
+	this.instance = new lib.Symbol6("synched",0);
+	this.instance.setTransform(23.8,72,1,0.9997,0,0,0,14.2,64.3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleY:1.0685,skewX:20.6281},14).to({scaleY:1,skewX:0},15).to({scaleY:1.0623,skewX:-19.7191},15).to({scaleY:1,skewX:0},15).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:15.1,regY:31.5,skewX:0.6667,x:25.05,y:39.2},0).wait(1).to({skewX:1.3333,x:25.4},0).wait(1).to({skewX:2,x:25.8,y:39.15},0).wait(1).to({skewX:2.6667,x:26.2,y:39.2},0).wait(1).to({skewX:3.3333,x:26.55,y:39.25},0).wait(1).to({skewX:4,x:26.95},0).wait(1).to({skewX:4.6667,x:27.35,y:39.3},0).wait(1).to({skewX:5.3333,x:27.7},0).wait(1).to({skewX:6,x:28.1,y:39.35},0).wait(1).to({skewX:5.4,x:27.8,y:39.3},0).wait(1).to({skewX:4.8,x:27.4},0).wait(1).to({skewX:4.2,x:27.1,y:39.25},0).wait(1).to({skewX:3.6,x:26.7},0).wait(1).to({skewX:3,x:26.4,y:39.2},0).wait(1).to({skewX:2.4,x:26.05},0).wait(1).to({skewX:1.8,x:25.7,y:39.15},0).wait(1).to({skewX:1.2,x:25.35,y:39.2},0).wait(1).to({skewX:0.6,x:25},0).wait(1).to({skewX:0,x:24.65,y:39.15},0).wait(1).to({skewX:-0.6,x:24.35,y:39.2},0).wait(1).to({skewX:-1.2,x:24},0).wait(1).to({skewX:-1.8,x:23.65,y:39.15},0).wait(1).to({skewX:-2.4,x:23.3,y:39.2},0).wait(1).to({skewX:-3,x:22.95},0).wait(1).to({skewX:-3.6,x:22.65,y:39.25},0).wait(1).to({skewX:-4.2,x:22.25},0).wait(1).to({skewX:-4.8,x:21.95,y:39.3},0).wait(1).to({skewX:-5.4,x:21.55},0).wait(1).to({skewX:-6,x:21.25,y:39.35},0).wait(1).to({skewX:-5.4,x:21.55,y:39.3},0).wait(1).to({skewX:-4.8,x:21.95},0).wait(1).to({skewX:-4.2,x:22.25,y:39.25},0).wait(1).to({skewX:-3.6,x:22.65},0).wait(1).to({skewX:-3,x:22.95,y:39.2},0).wait(1).to({skewX:-2.4,x:23.3},0).wait(1).to({skewX:-1.8,x:23.65,y:39.15},0).wait(1).to({skewX:-1.2,x:24,y:39.2},0).wait(1).to({skewX:-0.6,x:24.35},0).wait(1).to({skewX:0,x:24.65,y:39.15},0).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-13.7,23.9,64.3,38.300000000000004);
+p.nominalBounds = new cjs.Rectangle(1.9,4.4,45.6,69.69999999999999);
 
 
 (lib.Symbol22 = function(mode,startPosition,loop,reversed) {
@@ -223,45 +248,52 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_11
-	this.instance = new lib.medium();
-	this.instance.setTransform(-214.45,149.9,3.9447,3.9447,0,0,0,18.2,43.1);
-
-	this.instance_1 = new lib.fast();
-	this.instance_1.setTransform(-214.45,149.9,3.9447,3.9447,0,0,0,18.2,43.1);
-
-	this.instance_2 = new lib.slow();
-	this.instance_2.setTransform(-214.45,149.9,3.9447,3.9447,0,0,0,18.2,43.1);
-
-	this.instance_3 = new lib.Tween2("synched",0);
-	this.instance_3.setTransform(-214.85,221.1,3.9447,3.9447,0,0,0,0,30.6);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},19).to({state:[{t:this.instance}]},40).to({state:[{t:this.instance_2}]},60).to({state:[{t:this.instance_3}]},112).wait(37));
-
-	// Layer_2
-	this.instance_4 = new lib.Symbol4();
-	this.instance_4.setTransform(0.25,126.6,1,1,0,0,0,11.2,11.2);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({guide:{path:[0.3,126.6,16.3,113.3,36.5,118.7,57.7,124.4,70,144.1,82.4,164,94.6,179.1,106.8,194.3,123.7,204.1,140.5,214,163.1,221.6,185.7,229.3,205.8,235.1,226,241,241.6,247.4,257.2,253.9,277.3,259.8,283.8,261.7,290.5,262.7,295.5,263.5,300.5,263.8,304.3,264,308.2,264,308.3,264,349.3,264.2]}},267).wait(1));
-
-	// Layer_1
+	// Layer_7
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(3,1,1).p("AbTUpMg2lAAAMAAAgpR");
-	this.shape.setTransform(174.65,132.1);
+	this.shape.graphics.f().s("#000000").ss(1,0,0,4).p("A3XAAMAuvAAA");
+	this.shape.setTransform(-202.525,266.35);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(268));
 
-	// Layer_5
+	// Layer_3 copy
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("#016600").ss(4,1,1).p("A7Vp4QCjiODQA3QDUA5B7DGQB8DHB6CXQB7CXCoBiQCoBiDiBNQDiBNDJA6QDKA7CcBAQCcBBDJA7QBCASBCALQAyAHAyADQAmADAngBQABAAGaAC");
-	this.shape_1.setTransform(174.275,190.6573);
+	this.shape_1.graphics.f().s("#000000").ss(4,0,0,4).p("A7NK5QAFAAAHABQAFAAAGAAQAGAAAGAAQE+gKEhlRQCViuBUitQABgCAAgCQBViuCWivQDbj/DqhEQAQgEAQgEQA8gOA+gCQAGAAAGAAQAHAAAEAAQE+AJEiFSQCWCvBUCuIA8BuQBQCEBeBtQEhFRE+AJQAFABAHAAQAGAAAGgBQASAAARgC");
+	this.shape_1.setTransform(176.375,194.45);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(268));
+
+	// Layer_11
+	this.instance = new lib.Symbol6("synched",0);
+	this.instance.setTransform(-214.4,258.8,3.9447,3.9435,0,0,0,13.8,64);
+
+	this.instance_1 = new lib.slow();
+	this.instance_1.setTransform(-236.35,144.65,3.9447,3.9447,0,0,0,18.2,43.1);
+
+	this.instance_2 = new lib.medium();
+	this.instance_2.setTransform(-232.95,148.05,3.9447,3.9447,0,0,0,18.2,43.1);
+
+	this.instance_3 = new lib.fast();
+	this.instance_3.setTransform(-234.65,146.35,3.9447,3.9447,0,0,0,18.2,43.1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},19).to({state:[{t:this.instance_2}]},70).to({state:[{t:this.instance_3}]},42).to({state:[{t:this.instance_2}]},38).to({state:[{t:this.instance_1}]},40).to({state:[{t:this.instance}]},43).wait(16));
+
+	// Layer_2
+	this.instance_4 = new lib.Symbol4();
+	this.instance_4.setTransform(2.25,264.2,1,1,0,0,0,11.2,11.2);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({guide:{path:[2.3,264.2,2.8,264.2,3.4,264.3,4,264.3,4.6,264.3,5.2,264.3,5.8,264.3,37.5,263.3,66.5,229.6,81.4,212.2,89.7,194.9,89.8,194.7,89.9,194.5,98.3,177,113.4,159.5,135.2,134,158.7,127.3,160.2,126.9,161.8,126.5,167.9,125.1,174,124.9,174.7,124.9,175.3,124.9,175.8,124.9,176.4,124.9,208.1,125.8,237.1,159.5,252.1,177,260.5,194.5,263.6,200,266.6,205.5,274.6,218.7,284,229.6,312.8,263.3,344.6,264.2,345.2,264.3,345.9,264.3,346.5,264.3,347.1,264.2,348.8,264.2,350.5,264]}},267).wait(1));
+
+	// Layer_1
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f().s("#000000").ss(3,1,1).p("AbTUpMg2lAAAMAAAgpR");
+	this.shape_2.setTransform(174.65,132.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_2).wait(268));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-288.2,-1.5,648.7,276.9);
+p.nominalBounds = new cjs.Rectangle(-353.1,-4.6,714.9000000000001,280);
 
 
 // stage content:
@@ -381,7 +413,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(288.8,292.3,242.90000000000003,60.30000000000001);
+p.nominalBounds = new cjs.Rectangle(288.8,290.3,243.7,62.30000000000001);
 // library properties:
 lib.properties = {
 	id: '4B93EBDA609CD5499832C33DCA53321E',
